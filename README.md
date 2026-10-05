@@ -1,2 +1,4 @@
-# cos-web-site
-Clanka Operating System Website
+# Clanka Operating System Website
+
+TODO:
+- make the web site
