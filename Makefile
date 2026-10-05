@@ -1,16 +1,9 @@
-# cos-web-site: build the site from content/ into site/, and publish it.
-#
-# Publishing is the platform's: `deploy`, `check-deploy`, `releases` and
-# `rollback` call its cloudlab Makefile, which holds the host, the paths and
-# the releases. They need PLATFORM, the path to a checkout of it.
+# cos-web-site: build the site from content/ into site/.
 
 EMACS ?= emacs
 PORT  ?= 8000
 
-# SITE is this site's key under static_sites in the platform's CMDB.
-SITE = $(MAKE) -C $(PLATFORM)/cloudlab SITE=cos-web-site
-
-.PHONY: help build serve clean platform deploy check-deploy releases rollback
+.PHONY: help build serve clean
 
 help:
 	@grep -E '^[a-z-]+:.*?## .*$$' $(MAKEFILE_LIST) \
@@ -30,20 +23,3 @@ serve: build ## Build, then preview on localhost:$(PORT)
 
 clean: ## Remove the built site
 	rm -rf site
-
-platform:
-	@test -n "$(PLATFORM)" || { echo "usage: make $(MAKECMDGOALS) PLATFORM=<platform checkout>" >&2; exit 2; }
-
-deploy: platform build ## Build, then publish site/ as a new release
-	$(SITE) site-publish SRC=$(CURDIR)/site
-
-check-deploy: platform build ## Build, then dry-run a publish
-	$(SITE) site-publish-check SRC=$(CURDIR)/site
-
-releases: platform ## List the releases on the host, and which is current
-	$(SITE) site-releases
-
-# make rollback PLATFORM=<platform checkout> RELEASE=20261005T101500
-rollback: platform ## Re-point the site at an earlier release
-	@test -n "$(RELEASE)" || { echo "usage: make rollback PLATFORM=<platform checkout> RELEASE=<id>  (see: make releases)" >&2; exit 2; }
-	$(SITE) site-rollback RELEASE=$(RELEASE)
