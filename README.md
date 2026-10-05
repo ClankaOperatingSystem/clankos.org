@@ -10,8 +10,8 @@ make build      # content/ -> site/
 make serve      # build, then preview on http://localhost:8000
 ```
 
-`make help` lists the rest, which publish the site. The build needs Emacs
-and nothing else; `make serve` needs Python 3.
+`make help` lists the rest. The build needs Emacs and nothing else; `make
+serve` needs Python 3.
 
 ## Writing a page
 
@@ -34,16 +34,3 @@ The site is served under a content security policy that allows no inline
 script and no inline style, and nothing loaded from another site. Styling
 goes in the stylesheet and fonts are served from `content/`. `make build`
 fails if a page contains a `<script>`, a `<style>` or a `style` attribute.
-
-## Publishing
-
-Merging into `master` does not publish the site. Someone with the platform
-that hosts it publishes, from a checkout of `master`:
-
-```sh
-make check-deploy PLATFORM=<platform checkout>   # dry run
-make deploy PLATFORM=<platform checkout>
-```
-
-Both build first. `make releases` and `make rollback` list the releases on
-the host and return to an earlier one.
