@@ -78,3 +78,23 @@ footer {
   color: var(--quiet);
   font-size: 0.9rem;
 }
+
+/* The corner sash. It is drawn by the stylesheet, so every page that links
+   this file carries it without any markup of its own. */
+body::after {
+  content: "SLOP";
+  position: fixed;
+  top: 1.6rem;
+  right: -3.4rem;
+  z-index: 10;
+  width: 12rem;
+  transform: rotate(45deg);
+  background: #c4161c;
+  color: #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.35);
+  font: 700 1rem/2rem ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: 0.2em;
+  text-indent: 0.2em;
+  text-align: center;
+  pointer-events: none;
+}
