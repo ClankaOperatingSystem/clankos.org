@@ -1,0 +1,80 @@
+:root {
+  --ground: #fbfaf7;
+  --ink: #1d1c1a;
+  --quiet: #6a675f;
+  --rule: #dcd8ce;
+  --link: #1f5c4d;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #161614;
+    --ink: #e9e6de;
+    --quiet: #9b978c;
+    --rule: #34322d;
+    --link: #8fcab8;
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 12vh 1.25rem 4rem;
+  background: var(--ground);
+  color: var(--ink);
+  font: 1.0625rem/1.6 ui-serif, Georgia, "Times New Roman", serif;
+}
+
+main,
+footer {
+  max-width: 34rem;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 0 0.25rem;
+  font: 600 2rem/1.15 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.lede {
+  margin: 0 0 2.5rem;
+  color: var(--quiet);
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0 0 1.1rem;
+}
+
+ul {
+  margin: 2rem 0 0;
+  padding: 1.25rem 0 0;
+  border-top: 1px solid var(--rule);
+  list-style: none;
+}
+
+li {
+  margin: 0 0 0.4rem;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+footer {
+  margin-top: 3rem;
+  color: var(--quiet);
+  font-size: 0.9rem;
+}
