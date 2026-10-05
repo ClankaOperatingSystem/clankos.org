@@ -1,6 +1,6 @@
 # Clanka Operating System Website
 
-The site at <https://www.clankaoperatingsystem.org>.
+The site at <https://www.clankos.org>.
 
 The pages are Org files in `content/`. Emacs builds them into HTML in
 `site/`, which is not kept in Git.
