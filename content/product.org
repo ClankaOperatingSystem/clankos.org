@@ -5,5 +5,5 @@
 Products are whatever you need them to be.
 They are only constrained by your creativity and capability.
 
-#+ATTR_HTML: :alt The gnubot leaning against a weathered spaceship in an open hangar.
-[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/product.png]]
+#+ATTR_HTML: :alt The gnubot leaning against a sleek, carefully maintained spacecraft in an open hangar.
+[[ipfs://bafybeicf4wcciqchyv75oklsogayccxvnt6gyc44hzjq2dwucasmpuhcb4/product-v03-a.png]]

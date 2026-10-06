@@ -6,5 +6,5 @@ Real work calls for knowledge, skills, and tools.
 ClankOS is a foundation upon which these can be built,
 and eventually mastered.
 
-#+ATTR_HTML: :alt The gnubot repairing an open electronic device at a bench with an oscilloscope, tools, manuals and parts drawers.
-[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/bespoke-methodology.png]]
+#+ATTR_HTML: :alt Gnubot looking down at the soldering contact as he repairs an electronic device at his workbench.
+[[ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/bespoke-methodology-v03-a.png]]
