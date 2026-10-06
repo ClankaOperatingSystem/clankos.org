@@ -1,0 +1,7 @@
+#+TITLE: Product
+#+DESCRIPTION: The product is what the work is for.
+
+The product is what the work is for.
+
+#+ATTR_HTML: :alt The gnubot leaning against a weathered spaceship in an open hangar.
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/product.png]]

@@ -52,8 +52,15 @@ property list.  A placeholder is a name in double braces:
   {{heading}}      the page's title with its markup
   {{description}}  the file's #+DESCRIPTION, for an attribute
   {{root}}         the relative path to the top of the site
-  {{content}}      the body"
+  {{content}}      the body
+
+A link in the template to the page being built gains
+aria-current=\"page\", which the stylesheet uses to mark it."
   (let* ((title (plist-get info :title))
+         (page (concat (file-name-sans-extension
+                        (file-relative-name (plist-get info :input-file)
+                                            cos-content))
+                       ".html"))
          (values
           `(("title" . ,(org-html-plain-text
                          (org-element-interpret-data title) info))
@@ -64,6 +71,9 @@ property list.  A placeholder is a name in double braces:
             ("content" . ,(string-trim-right contents)))))
     (with-temp-buffer
       (insert-file-contents cos-template-file)
+      (let ((link (format "href=\"{{root}}%s\"" page)))
+        (while (search-forward link nil t)
+          (insert " aria-current=\"page\"")))
       (replace-regexp-in-string
        "{{\\([a-z]+\\)}}"
        (lambda (match)
