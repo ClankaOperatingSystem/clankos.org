@@ -111,6 +111,8 @@ Originals are cached; WebP derivatives belong only to the built site."
                              (not (equal (cos-assets-sha256 target)
                                          (cos-assets-sha256 temporary))))
                     (error "Generated image filename collision: %s" relative))
+                  ;; Temporary files start private; nginx must read the output.
+                  (set-file-modes temporary #o644)
                   (rename-file temporary target t)
                   (puthash uri relative cos-assets-rendered)
                   relative))
