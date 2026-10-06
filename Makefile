@@ -1,4 +1,4 @@
-# cos-web-site: build the site from content/ into site/.
+# clankos.org: build the site from content/ into site/.
 
 EMACS ?= emacs
 PORT  ?= 8000
