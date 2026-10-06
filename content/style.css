@@ -53,6 +53,16 @@ p {
   margin: 0 0 1.1rem;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 1.5rem 0 2rem;
+}
+
 ul {
   margin: 2rem 0 0;
   padding: 1.25rem 0 0;

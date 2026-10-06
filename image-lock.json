@@ -1,0 +1,23 @@
+{
+  "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/bespoke-methodology.png": {
+    "sha256": "8084b5be5a3dd3074c272a3b3cd508e2f3ba6b08da2bf76cdee1ef26549d68d6"
+  },
+  "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/foundation.png": {
+    "sha256": "b693fbc0b663b046b2db5cb1078367744a8c4b81aecd8c0e4c29d33c9afb75e0"
+  },
+  "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/gardening.png": {
+    "sha256": "62807d80a5fb209e0f1ea7bba2e527143a41be8d3af93201236ef822b9011ef6"
+  },
+  "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/gtd.png": {
+    "sha256": "c733b115b985b35456e0f64f077d6d3d971345988141425253a1efd92548385c"
+  },
+  "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/home.png": {
+    "sha256": "ef1d9f756110dd965b978bffe988445d51e5b1a04bd682dd1ec67dbfb7eb5d54"
+  },
+  "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/product.png": {
+    "sha256": "9fb7b049f82da1d262b1d2c413fc960c0c2cbc4cc889597e4b97874cf7694de2"
+  },
+  "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/teamwork-and-capability.png": {
+    "sha256": "633c8aa223d4491850cfdb90ba9f1867dc501c47a1c636d9dd9629887cf03a87"
+  }
+}
