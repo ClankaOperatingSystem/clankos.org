@@ -1,0 +1,53 @@
+#+TITLE: ClankOS scenes
+#+DESCRIPTION: Craft, responsibilities and shared capability in the world of ClankOS.
+
+* Home
+
+The craft is passed on through making, teaching and learning.
+
+#+ATTR_HTML: :alt A cloaked mechanical GNU fitting a hand to a smaller robot in a forest workshop. :loading lazy
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/home.png]]
+
+* Gardening
+
+The garden contains the whole of a life, and the responsibilities within it.
+
+#+ATTR_HTML: :alt The gnubot tending a garden within a walled homestead, with a workshop, orchard, spaceship and distant village. :loading lazy
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/gardening.png]]
+
+* Product
+
+The product is what the work is for.
+
+#+ATTR_HTML: :alt The gnubot leaning against a weathered spaceship in an open hangar. :loading lazy
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/product.png]]
+
+* Getting things done
+
+Capture, organise, work and review.
+
+#+ATTR_HTML: :alt Four views of the same gnubot collecting objects, sorting them, working at a conveyor and surveying the landscape. :loading lazy
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/gtd.png]]
+
+* Foundation
+
+A first blueprint study of the product and the knowledge that supports it.
+
+#+ATTR_HTML: :alt A blue technical drawing with a machine and people above a workbench, archive, solid block and iceberg. :loading lazy
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/foundation.png]]
+
+* Bespoke methodology
+
+Particular work calls for particular skills, tools and knowledge.
+
+#+ATTR_HTML: :alt The gnubot repairing an open electronic device at a bench with an oscilloscope, tools, manuals and parts drawers. :loading lazy
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/bespoke-methodology.png]]
+
+* Teamwork and capability
+
+Capability grows as methodologies are made, improved and shared.
+
+#+ATTR_HTML: :alt The gnubot inspecting a trader's ware in a busy robot market beneath ivory towers, with spaceships beyond. :loading lazy
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/teamwork-and-capability.png]]
+
+[[file:index.org][ClankOS home]]

@@ -12,10 +12,18 @@
 
 ;;; Code:
 
-(require 'ox-publish)
-
 (defconst cos-root (file-name-directory (or load-file-name buffer-file-name))
   "The repository's top directory.")
+
+;; Keep batch Emacs state and temporary files in disposable build storage.
+(setq user-emacs-directory (expand-file-name ".cache/emacs/" cos-root)
+      auto-save-list-file-prefix (expand-file-name "auto-save/" user-emacs-directory)
+      package-gnupghome-dir (expand-file-name "gnupg/" user-emacs-directory)
+      project-list-file (expand-file-name "projects" user-emacs-directory)
+      temporary-file-directory (expand-file-name ".cache/tmp/" cos-root))
+(make-directory temporary-file-directory t)
+(require 'ox-publish)
+(load (expand-file-name "assets.el" cos-root) nil t)
 
 (defconst cos-content (expand-file-name "content/" cos-root)
   "Where the Org files and the files copied beside them are.")
@@ -66,7 +74,8 @@ property list.  A placeholder is a name in double braces:
        (buffer-string) t t))))
 
 (org-export-define-derived-backend 'cos-html 'html
-  :translate-alist '((template . cos-template)))
+  :translate-alist '((template . cos-template))
+  :filters-alist '((:filter-parse-tree . cos-assets-links)))
 
 (defun cos-publish-page (plist filename pub-dir)
   "Publish the Org file FILENAME as a page in PUB-DIR.
@@ -78,7 +87,9 @@ PLIST is the project's property list."
 
 (defun cos-build ()
   "Build the whole site into site/."
+  (cos-assets-start)
   (let ((make-backup-files nil)
+        (org-publish-timestamp-directory (expand-file-name ".cache/org-publish/" cos-root))
         (org-publish-use-timestamps-flag nil)
         ;; Highlighted source is marked with classes for the stylesheet,
         ;; never with inline style, which the site is served without.

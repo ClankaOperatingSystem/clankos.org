@@ -3,7 +3,7 @@
 EMACS ?= emacs
 PORT  ?= 8000
 
-.PHONY: help build serve clean
+.PHONY: help build serve clean test
 
 help:
 	@grep -E '^[a-z-]+:.*?## .*$$' $(MAKEFILE_LIST) \
@@ -20,6 +20,9 @@ build: clean ## Build content/ into site/
 
 serve: build ## Build, then preview on localhost:$(PORT)
 	python3 -m http.server --directory site $(PORT)
+
+test: ## Check image fetching, verification and Org export
+	$(EMACS) --batch -Q --load tests/assets-test.el --funcall ert-run-tests-batch-and-exit
 
 clean: ## Remove the built site
 	rm -rf site
