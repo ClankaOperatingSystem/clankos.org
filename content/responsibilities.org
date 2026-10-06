@@ -7,16 +7,15 @@ with products and projects as at the leaves.
 
 #+begin_example
 ~/
-├── work/
 ├── health/
+├── personal/
+│   ├── finances/
+│   └── vegetables/
+│       ├── irrigation_system/  <<product>>
+│       └── summer_greens/      <<project>>
 ├── social/
-└── personal/
-    ├── finances/
-    ├── vegetables/
-    │   ├── summer_greens/      <<project>>
-    │   └── irrigation_system/  <<product>>
-    └── sorcery/
+└── work/
 #+end_example
 
-#+ATTR_HTML: :alt The gnubot tending a garden within a walled homestead, with a workshop, orchard, spaceship and distant village.
-[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/gardening.png]]
+#+ATTR_HTML: :alt A high-walled homestead encloses the house, open workshop and shared yard, with a vegetable garden tended by Gnubot beside a separately fenced orchard.
+[[ipfs://bafybeibshyswzguk62j2a7fj3ofu2jouwlxoaz6rhgrxlulamgq6wjz2zi/gardening-v09-a.png]]

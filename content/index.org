@@ -1,8 +1,8 @@
 #+TITLE: ClankOS
 #+DESCRIPTION: The operating system for clankas.
 
-#+ATTR_HTML: :alt A cloaked mechanical GNU fitting a hand to a smaller robot in a forest workshop.
-[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/home.png]]
+#+ATTR_HTML: :alt Gnubot concentrating on fitting a hand to a shiny new droid in his forest workshop.
+[[ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/home-v02-a.png]]
 
 The tools matter less than the protocols, the behaviour.
 Craft is passed on through making, learning and teaching.

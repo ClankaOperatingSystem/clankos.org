@@ -19,5 +19,56 @@
   },
   "ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/teamwork-and-capability.png": {
     "sha256": "633c8aa223d4491850cfdb90ba9f1867dc501c47a1c636d9dd9629887cf03a87"
+  },
+  "ipfs://bafybeihhaglzb7rkk6kqvlt6hcs5y3nvcelfrst2s4sydtyijfhxp7xpla/bespoke-methodology-v02-a.png": {
+    "sha256": "35c2e3c2f200a7e248617b45d88523e80133cecb3a6b53083cb4af2571f5330d"
+  },
+  "ipfs://bafybeibc2icymbv26psf35uhbc5fwwd5u2dcmq53k2icckdwxhg4dmsny4/product-v02-a.png": {
+    "sha256": "bf0ad88953d1466d51135314be204ea6cec8bd2846c29b5263b3b1c5e41c4212"
+  },
+  "ipfs://bafybeicf4wcciqchyv75oklsogayccxvnt6gyc44hzjq2dwucasmpuhcb4/product-v03-a.png": {
+    "sha256": "0953f30ce4f8684eaa8dcb7c4156373bbb6fa043b940c0cab934160a550ceb1a"
+  },
+  "ipfs://bafybeigfhbj3f4qa4vakelnujfjwnaoxc62l6zc5ugapw3sfvhxi5rk3cq/gardening-v04-a.png": {
+    "sha256": "93ded862397d83349b1a3a542bc27e987bd33eefec139b35c476d3c2f35c71f2"
+  },
+  "ipfs://bafybeicmm4fpnwomugh6xqv46qgbxomutezuctwnsvam7cqrsq4x7tkvfu/gardening-v05-a.png": {
+    "sha256": "1fa00b8408b6b4fc37b6fef7e52f2f077b5e1672d45dcbd1adcfc07ebe583da2"
+  },
+  "ipfs://bafybeigstz4dvp5z7l7u56zaqybndqjfdnnq6fpioeqiamu52vz36tut5i/gardening-v06-c.png": {
+    "sha256": "58477af7585c795fac315221340b1799786c9873bc194be4b8f4e1d4b38cd383"
+  },
+  "ipfs://bafybeifgqywcpqlkgpa6g4zeoyjachgcosnjpbmyqbzd3zdw6uu3ihrrou/gardening-v07-a.png": {
+    "sha256": "182e8c5a1191bca56f90846bc7b65121c89ac7b0bf261e795e0547ace5ed230e"
+  },
+  "ipfs://bafybeiash7fknd77hrxjnzqghd3pdwlt2a2yf755e6gvvhfx67w6bxdpli/gardening-v08-a.png": {
+    "sha256": "1dd2c17bbea5ecd598ba5b29a630e2ebcca1bce49fa03000066c3e7c33fb7623"
+  },
+  "ipfs://bafybeibshyswzguk62j2a7fj3ofu2jouwlxoaz6rhgrxlulamgq6wjz2zi/gardening-v09-a.png": {
+    "sha256": "9fd64b98db431cbcefaa9c6e4d3434bae6c43e80870c46c782d2acbcbb6e2d21"
+  },
+  "ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/gtd-v02-a.png": {
+    "sha256": "e6ee8a07136ecc988ef20fe29972810d146207088789e8de48031eba64d4e7ff"
+  },
+  "ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/bespoke-methodology-v03-a.png": {
+    "sha256": "c8dfe76dd7d845154031ea467c1b08375e4f909c86910ff5fab202b960b58954"
+  },
+  "ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/teamwork-and-capability-v02-a.png": {
+    "sha256": "e579d07dbd8e21fadd24c4ee70fc13e0477913a297cf9d21a5222bb88dbbf8cd"
+  },
+  "ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/home-v02-a.png": {
+    "sha256": "b40a980af2b15f2316561af82c82cda40af71aa57279c4ce305c338d43b17dd1"
+  },
+  "ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/foundation-v02-a.png": {
+    "sha256": "901ff96ca445b50d4a1d3855badf2ccd17417550ec3031125bc3f1f907e60a20"
+  },
+  "ipfs://bafybeiej5aiu5xv662rsq6klqj525vhciuikg6rwv7czjpvi3vxtzzwxfi/foundation-v03-a.png": {
+    "sha256": "2b920ce16f8f3e38a22229eecffd214bd33d4f228a5c0f7c28780b71bea52445"
+  },
+  "ipfs://bafybeidiiky4kxrnyiaraublfi6iaaynud3kkjdhet44kcwstj3czukgrq/foundation-v04-a.png": {
+    "sha256": "5b770a5727afbf6f635d117b4323ecf5b015e71dcf8552fa56a8d6c7107ebc25"
+  },
+  "ipfs://bafybeidiiky4kxrnyiaraublfi6iaaynud3kkjdhet44kcwstj3czukgrq/teamwork-and-capability-v03-a.png": {
+    "sha256": "0fc13f245843a43f8d5e154483421b3f99491efb3ea45cdc68974b515b2a75dc"
   }
 }

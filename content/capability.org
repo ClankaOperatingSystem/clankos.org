@@ -4,5 +4,5 @@
 
 Capability grows as methodologies are made, improved and shared.
 
-#+ATTR_HTML: :alt The gnubot inspecting a trader's ware in a busy robot market beneath ivory towers, with spaceships beyond.
-[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/teamwork-and-capability.png]]
+#+ATTR_HTML: :alt Gnubot rests his right hand on a trader friend's shoulder and passes an artefact with his left hand in a lively robot market.
+[[ipfs://bafybeidiiky4kxrnyiaraublfi6iaaynud3kkjdhet44kcwstj3czukgrq/teamwork-and-capability-v03-a.png]]
