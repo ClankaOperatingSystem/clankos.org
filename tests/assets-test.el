@@ -115,4 +115,22 @@
         (should (= 1 (length (directory-files (expand-file-name "img/" cos-output)
                                              nil "\\.webp$"))))))))
 
+(ert-deftest cos-assets-renders-publicly-readable-images ()
+  (cos-test-with-assets
+    (set-file-modes source #o600)
+    (cl-letf (((symbol-function 'cos-assets-download)
+               (lambda (_uri output) (copy-file source output t))))
+      (let ((cached (cos-assets-original cos-test-uri)))
+        (set-file-modes cached #o600)
+        (let* ((relative (cos-assets-render cos-test-uri))
+               (rendered (expand-file-name relative cos-output)))
+          (should (= #o644 (file-modes rendered)))
+          ;; Replacing output from an older build must repair its mode too.
+          (set-file-modes rendered #o600)
+          (clrhash cos-assets-rendered)
+          (should (equal relative (cos-assets-render cos-test-uri)))
+          (should (= #o644 (file-modes rendered)))
+          (should (= #o600 (file-modes source)))
+          (should (= #o600 (file-modes cached))))))))
+
 ;;; assets-test.el ends here
