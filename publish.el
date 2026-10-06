@@ -53,6 +53,7 @@ property list.  A placeholder is a name in double braces:
                    file says #+OPTIONS: title:nil
   {{description}}  the file's #+DESCRIPTION, for an attribute
   {{root}}         the relative path to the top of the site
+  {{page}}         the page path, for an attribute
   {{content}}      the body
 
 A link in the template to the page being built gains
@@ -72,6 +73,7 @@ aria-current=\"page\", which the stylesheet uses to mark it."
             ("description" . ,(cos-attribute
                                (or (plist-get info :description) "")))
             ("root" . ,(cos-root-prefix (plist-get info :input-file)))
+            ("page" . ,(cos-attribute page))
             ("content" . ,(string-trim-right contents)))))
     (with-temp-buffer
       (insert-file-contents cos-template-file)

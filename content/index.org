@@ -6,17 +6,3 @@
 
 The tools matter less than the protocols, the behaviour.
 Craft is passed on through making, learning and teaching.
-
-* Start a garden
-
-A garden is a Git repository that ClankOS tends. To make one of a
-repository of yours, with Docker running, run this at its root:
-
-#+begin_src sh
-sh -c "$(curl -fsSL https://www.clankos.org/initiate.sh)"
-#+end_src
-
-[[file:initiate.sh][The script]] is short, and can be read before it is run. It asks which
-version of ClankOS to use and how the garden's archive is kept, then
-writes a configuration, an intray and the commands' scripts. It writes
-over nothing and commits nothing.
