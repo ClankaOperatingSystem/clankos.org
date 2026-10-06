@@ -1,7 +1,9 @@
 #+TITLE: Product
-#+DESCRIPTION: The product is what the work is for.
+#+DESCRIPTION: Products are whatever you need them to be. They are only constrained by your creativity and capability.
+#+OPTIONS: title:nil
 
-The product is what the work is for.
+Products are whatever you need them to be.
+They are only constrained by your creativity and capability.
 
 #+ATTR_HTML: :alt The gnubot leaning against a weathered spaceship in an open hangar.
 [[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/product.png]]

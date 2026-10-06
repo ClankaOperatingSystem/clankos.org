@@ -1,0 +1,10 @@
+#+TITLE: Methods
+#+DESCRIPTION: Real work calls for knowledge, skills, and tools. ClankOS is a foundation upon which these can be built, and eventually mastered.
+#+OPTIONS: title:nil
+
+Real work calls for knowledge, skills, and tools.
+ClankOS is a foundation upon which these can be built,
+and eventually mastered.
+
+#+ATTR_HTML: :alt The gnubot repairing an open electronic device at a bench with an oscilloscope, tools, manuals and parts drawers.
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/bespoke-methodology.png]]

@@ -1,7 +1,0 @@
-#+TITLE: Foundation
-#+DESCRIPTION: A first blueprint study of the product and the knowledge that supports it.
-
-A first blueprint study of the product and the knowledge that supports it.
-
-#+ATTR_HTML: :alt A blue technical drawing with a machine and people above a workbench, archive, solid block and iceberg.
-[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/foundation.png]]
