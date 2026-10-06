@@ -1,0 +1,11 @@
+#+TITLE: Projects
+#+DESCRIPTION: Projects are a parallel universe to products or other responsibilities. Information accumulates, an imperfect model of the world evolves, and artefacts are generated that support the important conversations.
+#+OPTIONS: title:nil
+
+Projects are a parallel universe to products or other responsibilities.
+Information accumulates,
+an imperfect model of the world evolves,
+and artefacts are generated that support the important conversations.
+
+#+ATTR_HTML: :alt A blue technical drawing with a machine and people above a workbench, archive, solid block and iceberg.
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/foundation.png]]

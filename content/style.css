@@ -178,6 +178,17 @@ p {
   margin: 0 0 1.1rem;
 }
 
+/* Preformatted text, in the Solarized dark colours. */
+pre {
+  margin: 0 0 1.1rem;
+  padding: 0.9rem 1.1rem;
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  background: #002b36;
+  color: #93a1a1;
+  font: 0.9rem/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
 img {
   display: block;
   max-width: 100%;

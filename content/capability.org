@@ -1,5 +1,6 @@
-#+TITLE: Teamwork and capability
+#+TITLE: Capability
 #+DESCRIPTION: Capability grows as methodologies are made, improved and shared.
+#+OPTIONS: title:nil
 
 Capability grows as methodologies are made, improved and shared.
 

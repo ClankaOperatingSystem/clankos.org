@@ -1,0 +1,22 @@
+#+TITLE: Responsibilities
+#+DESCRIPTION: Responsibilities are organised hierarchically in a tree, with products and projects as at the leaves.
+#+OPTIONS: title:nil
+
+Responsibilities are organised hierarchically in a tree,
+with products and projects as at the leaves.
+
+#+begin_example
+~/
+├── work/
+├── health/
+├── social/
+└── personal/
+    ├── finances/
+    ├── vegetables/
+    │   ├── summer_greens/      <<project>>
+    │   └── irrigation_system/  <<product>>
+    └── sorcery/
+#+end_example
+
+#+ATTR_HTML: :alt The gnubot tending a garden within a walled homestead, with a workshop, orchard, spaceship and distant village.
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/gardening.png]]

@@ -1,7 +1,0 @@
-#+TITLE: Bespoke methodology
-#+DESCRIPTION: Particular work calls for particular skills, tools and knowledge.
-
-Particular work calls for particular skills, tools and knowledge.
-
-#+ATTR_HTML: :alt The gnubot repairing an open electronic device at a bench with an oscilloscope, tools, manuals and parts drawers.
-[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/bespoke-methodology.png]]
