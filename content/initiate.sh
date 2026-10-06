@@ -13,8 +13,10 @@
 #
 # It needs docker and bash, and the network to pull the image. It pulls
 # the image, takes from it the script that starts its commands, and runs
-# initiate with that. It writes only in the repository, writes over
-# nothing that is there, and commits nothing.
+# initiate with that. It writes only in the repository and commits
+# nothing. It writes over nothing that is there, with one exception: to
+# an AGENTS.md that is there it adds a block of its own, and on a later
+# run rewrites that block alone.
 #
 # CLANKOS_IMAGE names an image to use as it is, and none is pulled.
 # Exit: initiate's own; 2 not a Git repository; 127 docker or bash not found.
