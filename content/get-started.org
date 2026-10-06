@@ -1,0 +1,17 @@
+#+TITLE: Get Started
+#+DESCRIPTION: Start your tree of responsibility with ClankOS.
+#+OPTIONS: title:nil
+
+It's probably best to start your tree of responsibility in a new, empty git repository.
+
+You will need docker.
+
+#+begin_src sh
+sh -c "$(curl -fsSL https://www.clankos.org/initiate.sh)"
+#+end_src
+
+The script is short, it will:
+- download the ClankOS docker image
+- create some local configuration and scripts
+
+For more information, ask your robot (or read the source).

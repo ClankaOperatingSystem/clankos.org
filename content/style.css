@@ -233,3 +233,40 @@ footer p {
   padding-top: 0.9rem;
   border-top: 1px solid var(--rule);
 }
+
+/* The setup page is plain, monospaced text in Solarized dark colours. */
+body[data-page="get-started.html"] {
+  --panel: transparent;
+  --ink: #93a1a1;
+  --quiet: #839496;
+  --rule: #586e75;
+  --link: #268bd2;
+  color-scheme: dark;
+  background: #002b36;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+body[data-page="get-started.html"] header {
+  background: #073642;
+  font-family: inherit;
+}
+
+body[data-page="get-started.html"] main,
+body[data-page="get-started.html"] footer {
+  width: min(76ch, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+body[data-page="get-started.html"] main {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+body[data-page="get-started.html"] pre {
+  background: #073642;
+}
+
+body[data-page="get-started.html"] footer {
+  margin-top: auto;
+  padding: 2rem 1rem 1rem;
+}
