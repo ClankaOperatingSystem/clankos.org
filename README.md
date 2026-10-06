@@ -17,9 +17,11 @@ make serve      # build, then preview on http://localhost:8000
 
 Add an Org file under `content/`. `content/guide/start.org` becomes
 `site/guide/start.html`. Give it a `#+TITLE`, which becomes the page's
-heading, and a `#+DESCRIPTION`, which search engines show. Link to another
-page as an Org file, `[[file:guide/start.org][Start]]`; the build writes the
-link to the HTML page, and fails on a link to a file that is not there.
+heading, and a `#+DESCRIPTION`, which search engines show. A page with
+`#+OPTIONS: title:nil` has no heading; its title still names the browser
+tab. Link to another page as an Org file, `[[file:guide/start.org][Start]]`;
+the build writes the link to the HTML page, and fails on a link to a file
+that is not there.
 
 The header's menu and the footer's links are written out in `template.html`.
 Add a new page's link to the menu there. The build marks the link to the page

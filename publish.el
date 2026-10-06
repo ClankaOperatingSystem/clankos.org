@@ -49,7 +49,8 @@ CONTENTS is the exported body of the page and INFO the export's
 property list.  A placeholder is a name in double braces:
 
   {{title}}        the page's title as plain text
-  {{heading}}      the page's title with its markup
+  {{heading}}      the page's title as an h1, or nothing when the
+                   file says #+OPTIONS: title:nil
   {{description}}  the file's #+DESCRIPTION, for an attribute
   {{root}}         the relative path to the top of the site
   {{content}}      the body
@@ -64,7 +65,10 @@ aria-current=\"page\", which the stylesheet uses to mark it."
          (values
           `(("title" . ,(org-html-plain-text
                          (org-element-interpret-data title) info))
-            ("heading" . ,(org-export-data title info))
+            ("heading" . ,(if (plist-get info :with-title)
+                             (format "<h1>%s</h1>"
+                                     (org-export-data title info))
+                           ""))
             ("description" . ,(cos-attribute
                                (or (plist-get info :description) "")))
             ("root" . ,(cos-root-prefix (plist-get info :input-file)))
