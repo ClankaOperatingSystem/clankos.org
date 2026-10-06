@@ -162,16 +162,10 @@ header input:checked ~ nav {
 }
 
 h1 {
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.6rem;
   font: 600 2rem/1.15 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   letter-spacing: -0.01em;
   text-wrap: balance;
-}
-
-.lede {
-  margin: 0 0 1.1rem;
-  color: var(--quiet);
-  font-size: 1.25rem;
 }
 
 p {
