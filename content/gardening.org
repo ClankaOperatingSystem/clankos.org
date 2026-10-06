@@ -1,0 +1,7 @@
+#+TITLE: Gardening
+#+DESCRIPTION: The garden contains the whole of a life, and the responsibilities within it.
+
+The garden contains the whole of a life, and the responsibilities within it.
+
+#+ATTR_HTML: :alt The gnubot tending a garden within a walled homestead, with a workshop, orchard, spaceship and distant village.
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/gardening.png]]

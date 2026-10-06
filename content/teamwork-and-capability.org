@@ -1,0 +1,7 @@
+#+TITLE: Teamwork and capability
+#+DESCRIPTION: Capability grows as methodologies are made, improved and shared.
+
+Capability grows as methodologies are made, improved and shared.
+
+#+ATTR_HTML: :alt The gnubot inspecting a trader's ware in a busy robot market beneath ivory towers, with spaceships beyond.
+[[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/teamwork-and-capability.png]]

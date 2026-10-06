@@ -7,8 +7,8 @@ The operating system for clankas.
 #+ATTR_HTML: :alt A cloaked mechanical GNU fitting a hand to a smaller robot in a forest workshop.
 [[ipfs://bafybeibq2pwbwv2aakhpssihkcg3ejxver4agjhksismpcphpzn5ipxlf4/home.png]]
 
+The craft is passed on through making, teaching and learning.
+
 What matters is the protocols of interaction, the behaviour and the
 information management. The tools should not matter. The first
 implementation uses Emacs; a second is in Python.
-
-[[file:scenes.org][Explore the ClankOS scenes]].
