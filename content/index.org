@@ -10,4 +10,4 @@ implementation uses Emacs; a second is in Python.
 
 - [[https://github.com/ClankaOperatingSystem/poslib][poslib]], the Emacs Lisp library
 - [[https://github.com/ClankaOperatingSystem/pyposlib][pyposlib]], the Python library
-- [[https://github.com/ClankaOperatingSystem/cos-web-site][cos-web-site]], this page
+- [[https://github.com/ClankaOperatingSystem/clankos.org][clankos.org]], this page
