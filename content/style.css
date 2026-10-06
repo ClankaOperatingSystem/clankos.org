@@ -64,9 +64,8 @@ figure {
 }
 
 ul {
-  margin: 2rem 0 0;
-  padding: 1.25rem 0 0;
-  border-top: 1px solid var(--rule);
+  margin: 0 0 1.1rem;
+  padding: 0;
   list-style: none;
 }
 
@@ -85,6 +84,8 @@ a:hover {
 
 footer {
   margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
   color: var(--quiet);
   font-size: 0.9rem;
 }

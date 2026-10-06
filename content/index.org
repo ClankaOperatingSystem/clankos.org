@@ -12,7 +12,3 @@ information management. The tools should not matter. The first
 implementation uses Emacs; a second is in Python.
 
 [[file:scenes.org][Explore the ClankOS scenes]].
-
-- [[https://github.com/ClankaOperatingSystem/poslib][poslib]], the Emacs Lisp library
-- [[https://github.com/ClankaOperatingSystem/pyposlib][pyposlib]], the Python library
-- [[https://github.com/ClankaOperatingSystem/clankos.org][clankos.org]], this page
