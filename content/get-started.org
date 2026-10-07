@@ -18,10 +18,4 @@ The script is short, it will:
 - create an =AGENTS.md=, or add a section to the one you have
 - commit nothing
 
-For more information, ask your robot. =AGENTS.md= tells it to run this, and you can too:
-
-#+begin_src sh
-bin/clankos-run help
-#+end_src
-
-Or read the source.
+For more information, ask your robot (or read the source).
