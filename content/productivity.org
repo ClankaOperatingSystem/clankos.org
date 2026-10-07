@@ -1,11 +1,8 @@
 #+TITLE: Productivity
-#+DESCRIPTION: ClankOS is consistent in how it captures thoughts and ideas, organises them appropriately, focusses when working, and reviews on schedule.
+#+DESCRIPTION: ClankOS has a consistent discipline; Thoughts and ideas are captured, organised appropriately, then reviewed on a schedule. This affords clarity and sharpens focus.
 #+OPTIONS: title:nil
 
-ClankOS is consistent in how it captures thoughts and ideas,
-organises them appropriately,
-focusses when working,
-and reviews on schedule.
+ClankOS has a consistent discipline; Thoughts and ideas are captured, organised appropriately, then reviewed on a schedule. This affords clarity and sharpens focus.
 
 #+ATTR_HTML: :alt Four views of Gnubot collecting electronic and natural artefacts, sorting them, working on precision assemblies and surveying the landscape.
 [[ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/gtd-v02-a.png]]

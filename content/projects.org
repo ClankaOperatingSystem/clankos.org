@@ -6,5 +6,5 @@ Projects are a parallel universe to products (and other responsibilities).
 Information accumulates, a model of the world evolves,
 and artefacts are generated that support the important conversations.
 
-#+ATTR_HTML: :alt Blueprint of a spacecraft, a conversation including Gnubot, and archive drawers, a robotic spacecraft factory with dealership and service bay, and an iceberg.
-[[ipfs://bafybeidiiky4kxrnyiaraublfi6iaaynud3kkjdhet44kcwstj3czukgrq/foundation-v04-a.png]]
+#+ATTR_HTML: :alt A realistic polished spacecraft above a blueprint conversation including Gnubot, archive drawers, a robotic spacecraft factory and an iceberg.
+[[ipfs://bafybeigjf4ssfxpgbiljbkpjwioytlrt3ojutazxcu5yobsnkqidcgdxfi/foundation-v05-b.png]]
