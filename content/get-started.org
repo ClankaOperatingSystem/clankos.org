@@ -4,7 +4,7 @@
 
 It's probably best to start your tree of responsibility in a new, empty git repository.
 
-You will need docker.
+You will need docker, and docker must be able to see the repository. Some setups share only your home directory.
 
 #+begin_src sh
 sh -c "$(curl -fsSL https://www.clankos.org/initiate.sh)"
@@ -12,6 +12,16 @@ sh -c "$(curl -fsSL https://www.clankos.org/initiate.sh)"
 
 The script is short, it will:
 - download the ClankOS docker image
+- ask which version to use, and how to keep your archive
+- ask for your first responsibilities and projects
 - create some local configuration and scripts
+- create an =AGENTS.md=, or add a section to the one you have
+- commit nothing
 
-For more information, ask your robot (or read the source).
+For more information, ask your robot. =AGENTS.md= tells it to run this, and you can too:
+
+#+begin_src sh
+bin/clankos-run help
+#+end_src
+
+Or read the source.
