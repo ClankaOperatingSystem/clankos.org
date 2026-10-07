@@ -18,9 +18,7 @@ with products and projects as at the leaves.
 └── work/
 #+end_example
 
-#+begin_alignment-note
 We deliberately conflate goals, aims and responsibilities because it forces them into harmonious alignment.
-#+end_alignment-note
 
 #+ATTR_HTML: :alt A high-walled homestead encloses the house, open workshop and shared yard, with a vegetable garden tended by Gnubot beside a separately fenced orchard.
 [[ipfs://bafybeibshyswzguk62j2a7fj3ofu2jouwlxoaz6rhgrxlulamgq6wjz2zi/gardening-v09-a.png]]
