@@ -6,5 +6,5 @@ Projects are a parallel universe to products (and other responsibilities).
 Information accumulates, a model of the world evolves,
 and artefacts are generated that support the important conversations.
 
-#+ATTR_HTML: :alt A realistic polished spacecraft above a blueprint conversation including Gnubot, archive drawers, a robotic spacecraft factory and an iceberg.
-[[ipfs://bafybeigjf4ssfxpgbiljbkpjwioytlrt3ojutazxcu5yobsnkqidcgdxfi/foundation-v05-b.png]]
+#+ATTR_HTML: :alt A realistic spacecraft and orchard above three people and Gnubot conversing inside a white rounded panel. Blueprint arrows lead from the iceberg to the conversation, from the conversation to the archive and both products, both ways between the conversation and spacecraft factory, and from archives to canon. Labels identify archives, canon, "iceberg: speculative build, mostly slop", and "the tip is the useful bit". Gnubot stands half a head taller with folded arms. A brace labels the factory and iceberg as the digital twin.
+[[ipfs://bafybeigsmq24olhnx7mnp3ce2wyjwxr2ccqjq5rvajobxtcgjg6f6ybcwm/foundation-v07-a.png]]
