@@ -1,8 +1,8 @@
 #+TITLE: Productivity
-#+DESCRIPTION: ClankOS has a consistent discipline; Thoughts and ideas are captured, organised appropriately, then reviewed on a schedule. This affords clarity and sharpens focus.
+#+DESCRIPTION: Good robots are conscientious. Ideas captured in the moment then filed away in the right place. Reviews performed on schedule. Feedback topologies that drive alignment. Tasks approached with a clear mind, in a space that is organised to enable the work.
 #+OPTIONS: title:nil
 
-ClankOS has a consistent discipline; Thoughts and ideas are captured, organised appropriately, then reviewed on a schedule. This affords clarity and sharpens focus.
+Good robots are conscientious. Ideas captured in the moment then filed away in the right place. Reviews performed on schedule. Feedback topologies that drive alignment. Tasks approached with a clear mind, in a space that is organised to enable the work.
 
 #+ATTR_HTML: :alt Four views of Gnubot collecting electronic and natural artefacts, sorting them, working on precision assemblies and surveying the landscape.
 [[ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/gtd-v02-a.png]]
