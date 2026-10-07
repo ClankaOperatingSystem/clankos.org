@@ -4,5 +4,5 @@
 #+ATTR_HTML: :alt Gnubot concentrating on fitting a hand to a shiny new droid in his forest workshop.
 [[ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/home-v02-a.png]]
 
-The tools matter less than the protocols, the behaviour.
-Craft is passed on through making, learning and teaching.
+Tools matter less than protocols.
+Craft is shaped by behaviour; making, learning and teaching.
