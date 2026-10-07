@@ -1,10 +1,9 @@
 #+TITLE: Projects
-#+DESCRIPTION: Projects are a parallel universe (to products and responsibilities). Information accumulates, a model of the world evolves, and artefacts are generated that support the important conversations.
+#+DESCRIPTION: Projects are a parallel universe to products (and other responsibilities). Information accumulates, a model of the world evolves, and artefacts are generated that support the important conversations.
 #+OPTIONS: title:nil
 
-Projects are a parallel universe (to products and responsibilities).
-Information accumulates,
-a model of the world evolves,
+Projects are a parallel universe to products (and other responsibilities).
+Information accumulates, a model of the world evolves,
 and artefacts are generated that support the important conversations.
 
 #+ATTR_HTML: :alt Blueprint of a spacecraft, a conversation including Gnubot, and archive drawers, a robotic spacecraft factory with dealership and service bay, and an iceberg.
