@@ -329,14 +329,3 @@ body[data-page="get-started.html"] footer {
   margin-top: auto;
   padding: 2rem 1rem 1rem;
 }
-
-/* Keep the alignment statement on opaque white beside the dark tree. */
-.alignment-note {
-  background: #fff;
-  padding: 0.75rem;
-  margin-bottom: 1.1rem;
-}
-
-.alignment-note p {
-  margin: 0;
-}
