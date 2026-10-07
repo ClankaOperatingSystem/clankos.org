@@ -14,7 +14,7 @@
 
 /* The header is an opaque bar, --bar high. The page's picture fills the
    window below it. The text and the footer are translucent white panels
-   over the picture, at the bottom left. */
+   over the picture. Smaller screens place the image above the text. */
 body {
   display: flex;
   flex-direction: column;
@@ -234,6 +234,65 @@ footer p {
   border-top: 1px solid var(--rule);
 }
 
+/* On wide screens, place each copy panel away from its scene's subject. */
+@media (min-width: 60rem) {
+  body:not([data-page="index.html"]):not([data-page="get-started.html"]) main {
+    margin-top: 0;
+  }
+
+  body:not([data-page="index.html"]):not([data-page="get-started.html"]) footer {
+    margin-bottom: auto;
+  }
+
+  body[data-page="product.html"] main,
+  body[data-page="product.html"] footer,
+  body[data-page="projects.html"] main,
+  body[data-page="projects.html"] footer,
+  body[data-page="capability.html"] main,
+  body[data-page="capability.html"] footer {
+    margin-left: auto;
+    margin-right: clamp(1.25rem, 4vw, 4rem);
+  }
+}
+
+/* Small screens show the whole illustration before the page's words. */
+@media (max-width: 59.999rem) {
+  body {
+    background: #fff;
+    --panel: #fff;
+  }
+
+  header {
+    margin-bottom: 0;
+  }
+
+  main,
+  footer {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  figure {
+    position: static;
+    order: -1;
+    z-index: auto;
+    margin: -1.5rem -1.5rem 1.5rem;
+  }
+
+  figure img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
 /* The setup page is plain, monospaced text in Solarized dark colours. */
 body[data-page="get-started.html"] {
   --panel: transparent;
@@ -269,4 +328,15 @@ body[data-page="get-started.html"] pre {
 body[data-page="get-started.html"] footer {
   margin-top: auto;
   padding: 2rem 1rem 1rem;
+}
+
+/* Keep the alignment statement on opaque white beside the dark tree. */
+.alignment-note {
+  background: #fff;
+  padding: 0.75rem;
+  margin-bottom: 1.1rem;
+}
+
+.alignment-note p {
+  margin: 0;
 }
