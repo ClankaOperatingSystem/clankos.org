@@ -7,4 +7,4 @@ ClankOS is a foundation upon which these can be built,
 and eventually mastered.
 
 #+ATTR_HTML: :alt Gnubot looking down at the soldering contact as he repairs an electronic device at his workbench.
-[[ipfs://bafybeiebqqh4fhjhdcyvve54ek4w3x2r6hvrrhxpuckfjtgnl3enigavcu/bespoke-methodology-v03-a.png]]
+[[ipfs://bafybeibb7smckhio32xol3cae6qxftbxbyhjsfnjcvbqch4og4msmzecwe/bespoke-methodology.png]]
