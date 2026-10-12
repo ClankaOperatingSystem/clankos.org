@@ -2,9 +2,9 @@
 #+DESCRIPTION: Real work calls for knowledge, skills, and tools. ClankOS is a foundation upon which these can be built, and eventually mastered.
 #+OPTIONS: title:nil
 
-Real work calls for knowledge, skills, and tools.
-ClankOS is a foundation upon which these can be built,
-and eventually mastered.
+Real work requires specialised knowledge, skills, and tools.
+ClankOS is the foundation upon which these are built,
+shared, refined, and eventually mastered.
 
 #+ATTR_HTML: :alt Gnubot looking down at the soldering contact as he repairs an electronic device at his workbench.
 [[ipfs://bafybeibb7smckhio32xol3cae6qxftbxbyhjsfnjcvbqch4og4msmzecwe/bespoke-methodology.png]]
