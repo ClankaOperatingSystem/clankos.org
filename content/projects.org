@@ -2,7 +2,7 @@
 #+DESCRIPTION: Projects are a parallel universe to products (and other responsibilities). Information accumulates, a model of the world evolves, and artefacts are generated that support the important conversations.
 #+OPTIONS: title:nil
 
-Projects are a parallel universe to products (and other responsibilities).
+Projects are a parallel universe.
 Information accumulates, a model of the world evolves,
 and artefacts are generated that support the important conversations.
 
