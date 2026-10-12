@@ -1,5 +1,5 @@
 #+TITLE: Responsibilities
-#+DESCRIPTION: Responsibilities are organised hierarchically in a tree, with products and projects at the leaves.
+#+DESCRIPTION: Responsibilities are organised hierarchically, with products and projects at the leaves.
 #+OPTIONS: title:nil
 
 Responsibilities are organised hierarchically,

@@ -1,5 +1,5 @@
 #+TITLE: Methods
-#+DESCRIPTION: Real work calls for knowledge, skills, and tools. ClankOS is a foundation upon which these can be built, and eventually mastered.
+#+DESCRIPTION: Real work requires specialised knowledge, skills, and tools. ClankOS is the foundation upon which these are built, shared, refined, and eventually mastered.
 #+OPTIONS: title:nil
 
 Real work requires specialised knowledge, skills, and tools.

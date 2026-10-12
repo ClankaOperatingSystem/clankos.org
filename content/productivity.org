@@ -1,5 +1,5 @@
 #+TITLE: Productivity
-#+DESCRIPTION: Good robots are conscientious. Ideas captured in the moment then filed in the right place. Reviews performed on schedule, feedback topologies that drive alignment. Tasks approached with a clear mind, in a space that is organised to enable the work.
+#+DESCRIPTION: Conscientiousness is cultivated. Ideas are captured in the moment. Reviews are performed on schedule, and tasks are approached in a space that is organised to enable the work.
 #+OPTIONS: title:nil
 
 Conscientiousness is cultivated.
