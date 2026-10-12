@@ -1,10 +1,10 @@
 #+TITLE: Methods
-#+DESCRIPTION: Real work requires specialised knowledge, skills, and tools. ClankOS is the foundation upon which these are built, shared, refined, and eventually mastered.
+#+DESCRIPTION: Real work requires specialised knowledge, skills, and tools. ClankOS is the foundation upon which these are built, refined, and eventually mastered.
 #+OPTIONS: title:nil
 
 Real work requires specialised knowledge, skills, and tools.
 ClankOS is the foundation upon which these are built,
-shared, refined, and eventually mastered.
+refined, and eventually mastered.
 
 #+ATTR_HTML: :alt Gnubot looking down at the soldering contact as he repairs an electronic device at his workbench.
 [[ipfs://bafybeibb7smckhio32xol3cae6qxftbxbyhjsfnjcvbqch4og4msmzecwe/bespoke-methodology.png]]
