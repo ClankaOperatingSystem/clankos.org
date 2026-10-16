@@ -13,13 +13,15 @@
 #
 # It needs docker and bash, and the network to pull the image. It pulls
 # the image, takes from it the script that starts its commands, and runs
-# initiate with that. It writes only in the repository and commits
+# initiate with that, then install, which puts the skills in
+# .agents/skills/. It writes only in the repository and commits
 # nothing. It writes over nothing that is there, with one exception: to
 # an AGENTS.md that is there it adds a block of its own, and on a later
 # run rewrites that block alone.
 #
 # CLANKOS_IMAGE names an image to use as it is, and none is pulled.
-# Exit: initiate's own; 2 not a Git repository; 127 docker or bash not found.
+# Exit: initiate's own, then install's; 2 not a Git repository; 127 docker
+# or bash not found.
 
 set -eu
 
@@ -64,6 +66,7 @@ main() {
     trap 'rm -f "$run"' EXIT
     docker run --rm "$image" cat /usr/local/share/clankos/bin/clankos-run > "$run"
     CLANKOS_IMAGE=$image CLANKOS_WORKSPACE=$PWD bash "$run" initiate --image "$version" "$@"
+    CLANKOS_IMAGE=$image CLANKOS_WORKSPACE=$PWD bash "$run" install
 }
 
 # Read whole before any of it runs, so that piping this file to sh works;
