@@ -8,3 +8,19 @@ refined, and eventually mastered.
 
 #+ATTR_HTML: :alt Gnubot looking down at the soldering contact as he repairs an electronic device at his workbench.
 [[ipfs://bafybeibb7smckhio32xol3cae6qxftbxbyhjsfnjcvbqch4og4msmzecwe/bespoke-methodology.png]]
+
+A method is how one kind of work is done well. ClankOS packages a
+method as a methodology: a repository of skills that a coding agent
+reads, with checks that say when the work falls short. The tree of
+responsibilities you keep declares the methodologies it uses, each at
+a version, and installs them where every session finds them.
+
+Some methods are standards for writing. A gnome is a methodology that
+also holds the standard itself, as rules with examples: one for pull
+requests, one for a repository's documents, one for a garden. A
+bugflow server reviews pull requests by a gnome, and the sessions in
+your tree write to the same rules. One gnome, kept in one place,
+serves both.
+
+[[https://github.com/ClankaOperatingSystem/clankos/blob/master/docs/words.txt][What ClankOS calls things]], and
+[[https://github.com/bugflow/bugflow/blob/master/docs/gnomes.md][what a gnome is]].
