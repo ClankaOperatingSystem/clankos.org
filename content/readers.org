@@ -1,0 +1,64 @@
+#+TITLE: Readers
+#+DESCRIPTION: Where to start reading, by who you are: a visitor, a gardener, an agent, or a maintainer of a methodology, a gnome, a server or a binding.
+
+Each kind of reader starts in one place and reads down from there.
+The documents link to one another, and each fact is stated once.
+
+* A visitor
+
+You have heard of ClankOS or bugflow and want to know what it is.
+Start with [[file:methods.org][Methods]], then the
+[[https://github.com/ClankaOperatingSystem/clankos][clankos README]] or the
+[[https://github.com/bugflow/bugflow][bugflow README]].
+
+* Someone starting a garden
+
+You want a tree of responsibilities of your own, with a coding agent
+working in it. Start with [[file:get-started.org][Get Started]], then
+=clankos-run help=, which says what a garden is and lists the commands.
+Read next =clankos-run help install=, for how a methodology is declared,
+and =clankos-run help words=, for what each word means.
+
+* An agent running a skill
+
+You are a coding agent opened in a repository of the tree. Start with
+the repository's instructions file, then the skill that fits the work
+in hand. Read the skill's references when the skill says so, and the one
+help document the skill names. Do not read every command's help first.
+
+* A maintainer of a methodology
+
+You keep a repository of skills and checks for others to install. Start
+with =clankos-run help model=, which says what a methodology is and
+which code enforces each part, then poslib's
+[[https://github.com/ClankaOperatingSystem/poslib/blob/master/doc/pos-methodology.txt][methodology document]]
+for what a methodology holds. Read next =clankos-run help install= and
+=clankos-run help pos-lint=.
+
+* A maintainer of a gnome
+
+You keep a standard for writing, with policies and cases, that servers
+and gardens both use. Start with bugflow's
+[[https://github.com/bugflow/bugflow/blob/master/docs/gnomes.md][What a gnome is]].
+Read next the
+[[https://github.com/bugflow/bugflow/blob/master/docs/policy-package.md][policy package]]
+for each file's format, the methodology maintainer's documents above
+for the garden side, and the gnome's own README for its particulars.
+
+* An operator of a bugflow server
+
+You run a server for an organisation's repositories. Start with the
+[[https://github.com/bugflow/bugflow][bugflow README]], then
+[[https://github.com/bugflow/bugflow/blob/master/docs/deploying.md][Deploying a server]]
+and
+[[https://github.com/bugflow/bugflow/blob/master/docs/architecture.md][What is deployed where]].
+
+* A keeper of a binding
+
+You decide which gnomes, at which commits, apply to which repositories,
+and answer an author who disputes a finding. Start with bugflow's
+[[https://github.com/bugflow/bugflow/blob/master/docs/review.md][What a review says]],
+then the maintainer's tasks in
+[[https://github.com/bugflow/bugflow/blob/master/docs/gnomes.md][What a gnome is]]
+and the binding section of the
+[[https://github.com/bugflow/bugflow/blob/master/docs/policy-package.md][policy package]].

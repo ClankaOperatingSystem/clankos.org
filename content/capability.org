@@ -3,6 +3,7 @@
 #+OPTIONS: title:nil
 
 Capability grows as methodologies are made, improved and shared.
+[[file:methods.org][Methods]] says what a methodology is.
 
 #+ATTR_HTML: :alt Gnubot rests his right hand on a trader friend's shoulder and passes an artefact with his left hand in a lively robot market.
 [[ipfs://bafybeidiiky4kxrnyiaraublfi6iaaynud3kkjdhet44kcwstj3czukgrq/teamwork-and-capability-v03-a.png]]
