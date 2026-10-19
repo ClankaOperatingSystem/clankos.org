@@ -21,7 +21,8 @@ build: clean ## Build content/ into site/
 serve: build ## Build, then preview on localhost:$(PORT)
 	python3 -m http.server --directory site $(PORT)
 
-test: ## Check image fetching, verification and Org export
+test: ## Check bootstrap, image fetching and Org export
+	tests/bootstrap.sh
 	$(EMACS) --batch -Q --load tests/assets-test.el --funcall ert-run-tests-batch-and-exit
 
 clean: ## Remove the built site

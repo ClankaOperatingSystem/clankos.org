@@ -2,18 +2,19 @@
 #+DESCRIPTION: Start your tree of responsibility with ClankOS.
 #+OPTIONS: title:nil
 
-It's probably best to start your tree of responsibility
-in an empty git repository.
-
-You will need docker.
+Start in an empty Git repository with Git, Bash, Docker and tar available.
+Select a published fixed ClankOS release and replace =vX.Y.Z= below with its
+version. The runtime and skills images must both be available for that release.
 
 #+begin_src sh
-sh -c "$(curl -fsSL https://www.clankos.org/initiate.sh)"
+sh -c "$(curl -fsSL https://www.clankos.org/initiate.sh)" -- vX.Y.Z
 #+end_src
 
-You should find this script readable. It will:
-- download the ClankOS docker image
-- ask some questions and build an initial configuration
-- commit nothing
+The script downloads the release's bootstrap bundle, checks its image pair,
+creates the initial configuration and installs the skills. It stages and
+commits nothing. Review the changes before committing them.
 
-For more information, ask your robot (or read the source).
+The installed skills carry their own commands. A fresh clone can use those
+bundles directly. Optional methodologies can be selected after bootstrap.
+
+For the protocol, read [[https://github.com/ClankaOperatingSystem/clankos/blob/master/docs/initiate.txt][the bootstrap documentation]].
